@@ -1,0 +1,10 @@
+# テンプレートを読み込み
+include:
+  - project: 'qwerty0121/cicd-template'
+    ref: master
+    file: '/templates/.gitlab-ci-template.yml'
+
+echo:
+  extends: .template-job
+  variables:
+    TEST_VARIABLE: 'Message by cicd-sample'
