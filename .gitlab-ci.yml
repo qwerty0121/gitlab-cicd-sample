@@ -1,6 +1,6 @@
 # テンプレートを読み込み
 include:
-  - project: 'qwerty0121/cicd-template'
+  - project: 'qwerty01211/cicd-template'
     ref: master
     file: '/templates/.gitlab-ci-template.yml'
 
